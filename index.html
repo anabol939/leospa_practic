@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <link href="./css/style.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauti center</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link href="./css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div>
-        <nav>
-          <a href="#"> <img src="" alt="logo" /> </a>
-          <ul>
-            <li><a href="#hero">home</a></li>
-            <li><a href="about">about</a></li>
-            <li><a href="features">feature</a></li>
-            <li><a href="service">service</a></li>
-            <li><a href="contact">contact</a></li>
+    <!--heder-->
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <div class="logo">
+          <a class="navigation-link link" href="#"> <img src="./images/heder/Logo1.png" alt="logo" /> </a>
+          <ul class="list"></div>
+            <li class="navigation-item list"><a class="link" href="#hero">HOME</a></li>
+            <li class="navigation-item list"><a class="link" href="about">ABOUT</a></li>
+            <li class="navigation-item list"><a class="link" href="features">FEATURE</a></li>
+            <li class="navigation-item list"><a class="link"  href="service">SERVICE</a></li>
+            <li class="navigation-item list"><a class="link" href="contact">CONTACT</a></li>
           </ul>
+  
         </nav>
       </div>
     </header>
     <main>
       <!--hero-->
       <section id="hero">
-        <div>
-          <p>SPA & BEAUTY CENTER</p>
-          <h1>Beauty and success starts here.</h1>
-          <p>
+        <div class="container">
+          <p class="herro-suptitle">SPA & BEAUTY CENTER</p>
+          <h1 class="herro-title">Beauty and success starts here.</h1>
+          <p class="herro-subtitle">
             Together creeping heaven upon third dominion be upon won't darkness
             rule behold it created good saw after she'd Our set living.
           </p>
-          <a href="#">Reserv Now></a>
-          <a href="https://www.youtube.com/watch?v=QWUPm0ND7HY&t=5s">
-            <img src="" alt=" img" />Watch our story</a
+          <button class="model-btn" type="submit">Reserv Now></button>
+          <a class="herro-link" href="https://www.youtube.com/watch?v=QWUPm0ND7HY&t=5s">
+            <img src="./images/herro/photo1.png " alt=" img" />Watch our story</a
           >
         </div>
       </section>
+      <div class="container">
       <section id="about">
-        <div>
+        <div class="container">
           <div>
-            <img src="" alt="china-rose" />
+            <img src="./images/herro/Icon1.png" alt="china-rose" />
             <img src=" " alt="jasmine" />
-            <p>ABOUT OUR SPA CENTER</p>
-            <h2>ABOUT OUR SPA CENTER</h2>
-            <p>
+            <p class="about-suptitle">ABOUT OUR SPA CENTER</p>
+            <h2 class="titles">Come and you will be Inspired!</h2>
+            <p class="about-subtitle">
               It’s the end of summer the sweltering heat makes human sweat in
               the night and makes the plants and trees wilt even in the moonlit
               nights. The eastern wind breeze brings an eerie feeling, that the
@@ -52,12 +67,14 @@
               ears, the sky gets darker and darker
             </p>
           </div>
-          <a href="#">READ MORE</a>
+          <button class="model-btn" type="submit">READ MORE</button>
         </div>
       </section>
+      <!--FEATURES-->
       <section id="features">
-        <div>
-          <ul>
+        <div class="container">
+          <h2 class="titles visually-hidden">Features</h2>
+          <ul class="list">
             <li>
               <a href=""><img src="" alt="img1" /> </a>
             </li>
@@ -73,83 +90,80 @@
           </ul>
         </div>
       </section>
+      <!--SERVICE-->
       <section id="">
         <div>
-          <h2>Popular Procedures</h2>
-          <p>
+          <h2 class="titles">Popular Procedures</h2>
+          <p class="service-subtitle">
             To doesn't his appear replenish together called he of mad place
             won't wherein blessed second every wherein were meat kind wherein
             and martcin
           </p>
-          <ul>
+          <ul class="list"> 
             <li>
-              <img src="" alt="wom1" />
+              <img src="./images/popular/photo1.jpg" alt="wom1" />
               <h3>Massage Therapy</h3>
               <p>
                 Living winged said you darkness you're divide gathered and bring
                 one seasons face great dr Waters firmament place which.
               </p>
-              <a href="">Read more</a>
+              <button class="model-btn" type="submit">Read more</button>
             </li>
             <li>
-              <img src="" alt="wom2" />
+              <img src="./images/popular/photo1.jpg" alt="wom2" />
               <h3>Beauty Care</h3>
               <p>
                 Living winged said you darkness you're divide gathered and bring
                 one seasons face great dr Waters firmament place which.
               </p>
-              <a href="">Read more</a>
+              <button class="model-btn" type="submit">Read more</button>
             </li>
             <li>
-              <img src="" alt="wom3" />
+              <img src="./images/popular/photo1.jpg" alt="wom3" />
               <h3>Executive Reflexology</h3>
               <p>
                 Living winged said you darkness you're divide gathered and bring
                 one seasons face great dr Waters firmament place which.
               </p>
-              <a href="">Read more</a>
+              <button class="model-btn" type="submit">Read more</button>
             </li>
           </ul>
         </div>
       </section>
+      <!--Testimonials-->
       <section>
         <div>
-          <!-- <h2></h2> -->
-          <ul>
+           <h2 class=" titles visually-hidden">Testimonials</h2>
+          <ul class="list">
             <li>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-                nulla voluptatem est atque dolore a, dicta culpa blanditiis
-                laboriosam laudantium minus magni similique quaerat hic aliquam
-                pariatur quis totam rem?
+                First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.
               </p>
-              <img src="" alt="girl" />
+              <img src="./images/Testimonials/photo.png" alt="girl" />
               <p>Jack Marsh <span> Executive</span></p>
             </li>
             <li>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eveniet praesentium incidunt dolor modi hic minus consequatur
-                maxime. Laborum dolorum tempore aspernatur nobis fuga harum
-                earum, cupiditate eius unde rem. Ut!
+               First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.
               </p>
-              <img src="" alt="girl" />
+              <img src="./images/Testimonials/photo.png" alt="girl" />
               <p>Jack Marsh <span> Executive</span></p>
             </li>
           </ul>
         </div>
       </section>
+      <!--EXPERIENCED TEAM-->
       <section>
         <div>
-          <h2>Experienced Team</h2>
+          <h2 class="titles">Experienced Team</h2>
           <p>
             To doesn't his appear replenish together called he of mad place
             won't wherein blessed second every wherein were meat kind wherein
             and martcin
           </p>
-          <ul>
+          <ul class="list" >
             <li>
-              <img src="" alt="female1" />
+              <img src="./images/EXPERIENCED/photo1.jpg" alt="female1" />
               <h3>Joseph Austin</h3>
               <p>Thai Message</p>
               <ul>
@@ -167,7 +181,7 @@
           </li>
               </ul>
             </li>
-            <li> <img src="" alt="female2" />
+            <li> <img src="./images/EXPERIENCED/photo2.jpg" alt="female2" />
               <h3>David Hannan</h3>
               <p>Thai Message</p>
               <ul>
@@ -185,7 +199,7 @@
           </li>
           </ul>
          </il>
-          <li><img src="" alt="female3" />
+          <li><img src="./images/EXPERIENCED/photo3.jpg" alt="female3" />
               <h3>Cheryl Harris</h3>
               <p>Thai Message</p>
               <ul>
@@ -234,7 +248,7 @@
           </p>
           <ul>
             <li>
-              <img src="" alt="woman1" />
+              <img src="./images/Appointment Table/photo1.jpg" alt="woman1" />
               <h3>Massage Therapy</h3>
               <p>
                 Living winged said you darkness you're divide gathered and bring
@@ -265,7 +279,7 @@
       </section>
       <section id="contact">
         <div>
-          <h2>Get In Touch</h2>
+          <h2 class="titles">Get In Touch</h2>
           <p>
             To doesn't his appear replenish together called he of mad place
             won't wherein blessed second every wherein were meat kind wherein
